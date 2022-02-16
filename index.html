@@ -10,17 +10,38 @@
     <header>
       <h1>Elementos de agrupación</h1>
       <nav>
+        <!-- links url absolutos -->
+        <a href="https://www.github.com">Github</a>
+
+        <!-- link a otro docuemnto dentro del sitio -->
+        <a href="servicios.html">Servicios</a>
+
+        <!-- link hacia otra sección del documento -->
+        <a href="#Abajo">Ir abajo</a>
+
+        <!-- link url tab nuevo -->
+        <a target="_blank" href="https://www.github.com">Github</a>
+
+        <!-- link telefono -->
+        <a href="Tel:67469387">Contacto</a>
 
       </nav>
     </header>
+  
     <!-- Contenido Principal-->
     <main>
         <article>
             <!--blockquote (cita elementos de páginas)-->
             <blockquote cite="https://www.asciiart.eu/">
               <p>
-                The ASCII art of this website has been created by many different artists and credit has been given where the artist is known. If you use ASCII artwork from here, please do not remove the artists name/initials if they are present.
+                The 
+                <abbr title="American Standard Code for Information Interchange">ASCII</abbr>  
+                art of this <strong>website</strong>  has been created by many different <strong>artists</strong>  and credit has been given where the artist is known. If you use ASCII artwork from here, please do not remove the artists name/initials if they are present.
               </p>
+              <!--superindice -->
+              <p>UANL <sup>Facpya</sup></p>
+              <!--subindice-->
+              <p>UANL <sub>Facpya</sub></p>
             </blockquote>
       
             <!--div contenedeor generico (contenedor de elementos genericos)-->
@@ -91,7 +112,7 @@
     
 
     <footer>
-      <address>
+      <address id="Abajo">
         <p>Desarrollador: Melanie C.</p>
       </address>
     </footer>
